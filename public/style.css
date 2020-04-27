@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    text-decoration: underline;
+}
+
+#container {
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+
+}
+
+canvas {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.switch-container {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.switch-container a {
+    color: #111;
+    text-decoration: none;
+}
+
+.switch-container .selected {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.canvas-container {
+    position: relative;
+    width: 100%;
+    margin: auto
+}
+
+.fps {
+    position: absolute;
+    bottom: -16px;
+    color: black;
+    background: rgba(57,255,20,0.8);
+    padding: 7px;
+}
+
+.switch-wasm {
+    width: 300px;
+    margin: auto
+}
+
+.controls-container {
+    margin: 20px 0;
+}
+
+.controls-container label {
+    width: 125px;
+    display: inline-block;
+}
+
+.controls-container > div {
+    width: 20%;
+    float: left;
+    text-align: center
+}
+
+.simplified {
+    width: inherit!important;
+}
+
+.simplified .canvas-container {
+    width: inherit!important;
+}
+
+.simplified h1,
+.simplified .controls-container {
+    display: none;
+    font-size: 14px;
+}
+
+.simplified .switch-container {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+}
