@@ -10,7 +10,7 @@
     "author": "Matt Harrison <hi@matt-harrison.com>",
     "license": "BSD-3-Clause",
     "devDependencies": {
-        "serve": "^11.3.0"
+        "serve": "^14.1.1"
     },
     "dependencies": {}
 }
